@@ -12,6 +12,18 @@
 
 #include "ft_printf.h"
 
+void	ft_putstr(char *str)
+{
+	int		i;
+
+	i = 0;
+	while (str[i])
+	{
+		write(1, &str[i], 1);
+		i++;
+	}
+}
+
 int	ft_print_char(int c)
 {
 	return (write(1, &c, 1));
@@ -24,7 +36,7 @@ int	ft_print_str(const char *str)
 	i = 0;
 	if (str == NULL)
 	{
-		write(1, "(null)", 6);
+		ft_putstr("(null)");
 		return (-1);
 	}
 	while (str[i])
