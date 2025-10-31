@@ -6,7 +6,7 @@
 /*   By: jeff <jeff@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/09 14:34:07 by jstrasse          #+#    #+#             */
-/*   Updated: 2025/10/21 10:29:50 by jeff             ###   ########.fr       */
+/*   Updated: 2025/10/31 13:02:02 by jeff             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,8 +47,6 @@ int	ft_printf(const char *format, ...)
 	{
 		if (format[i] == '%')
 		{
-			if (format[i + 1] == '-' || format[i + 1] == '.')
-				i++;
 			print_length += ft_formats(arguments, format[i +1]);
 			i++;
 		}

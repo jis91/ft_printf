@@ -6,7 +6,7 @@
 /*   By: jeff <jeff@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 18:29:55 by jeff              #+#    #+#             */
-/*   Updated: 2025/10/21 10:24:57 by jeff             ###   ########.fr       */
+/*   Updated: 2025/10/31 12:41:43 by jeff             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ int	ft_print_str(const char *str)
 	if (str == NULL)
 	{
 		ft_putstr("(null)");
-		return (-1);
+		return (6);
 	}
 	while (str[i])
 	{
