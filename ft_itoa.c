@@ -58,14 +58,3 @@ char	*ft_itoa(int n)
 	}
 	return (result);
 }
-/*
-int	main(void)
-{
-	int	test;
-	char	*result;
-
-	test = -25;
-	result = ft_itoa(test);
-	printf("%s\n", result);
-	return (0);
-}*/
