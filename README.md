@@ -14,7 +14,7 @@ This project consists of coding a library that contains a simplified version of 
 
 My version will only work with the following conversion specifiers:
 
-> %: prints the percent character.
+%: prints the percent character.
 c: prints a character.
 s: prints a string (array of characters).
 d, i: prints an integer.
