@@ -14,13 +14,20 @@ This project consists of coding a library that contains a simplified version of 
 
 My version will only work with the following conversion specifiers:
 
-%: prints the percent character.
-c: prints a character.
+__%: prints the percent character.__
+
+__c: prints a character.__
+
 s: prints a string (array of characters).
+
 d, i: prints an integer.
+
 p: prints a pointer adress in hexadecimal format(starting with 0x).
+
 u: prints an unsigned integer.
+
 x: prints an unsigned hexadecimal integer (lowercase a-f).
+
 X: prints an unsigned hexadecimal integer (uppercase A-F).
 
 You have to add the conversion specifier after the % character. (example : ft_printf("%%"), to print a % character).
