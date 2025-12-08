@@ -16,19 +16,19 @@ My version will only work with the following conversion specifiers:
 
 <ins>%</ins>: prints the percent character.
 
-__c__: prints a character.
+<ins>c</ins>: prints a character.
 
-__s__: prints a string (array of characters).
+<ins>s</ins>: prints a string (array of characters).
 
-__d, i__: prints an integer.
+<ins>d</ins> or <ins>i</ins>: prints an integer.
 
-__p__: prints a pointer adress in hexadecimal format(starting with 0x).
+<ins>p</ins>: prints a pointer adress in hexadecimal format(starting with 0x).
 
-__u__: prints an unsigned integer.
+<ins>u</ins>: prints an unsigned integer.
 
-__x__: prints an unsigned hexadecimal integer (lowercase a-f).
+<ins>x</ins>: prints an unsigned hexadecimal integer (lowercase a-f).
 
-__X__: prints an unsigned hexadecimal integer (uppercase A-F).
+<ins>X</ins>: prints an unsigned hexadecimal integer (uppercase A-F).
 
 You have to add the conversion specifier after the % character. (example : ft_printf("%%"), to print a % character).
 
