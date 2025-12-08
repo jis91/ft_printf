@@ -14,7 +14,7 @@ This project consists of coding a library that contains a simplified version of 
 
 My version will only work with the following conversion specifiers: 
 
-<ins>%<ins>: prints the percent character.
+<ins>%</ins>: prints the percent character.
 
 __c__: prints a character.
 
