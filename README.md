@@ -12,23 +12,23 @@ The printf function can be found in stdio.h header (#include <stdio.h>).
 All the differents formats, flags and conversion specifier, and information on this function can be found in the man (man printf). 
 This project consists of coding a library that contains a simplified version of the printf function : the ft_printf function.
 
-My version will only work with the following conversion specifiers:
+My version will only work with the following conversion specifiers: 
 
-__%: prints the percent character.__
+<ins>%<\ins>: prints the percent character.
 
-__c: prints a character.__
+__c__: prints a character.
 
-s: prints a string (array of characters).
+__s__: prints a string (array of characters).
 
-d, i: prints an integer.
+__d, i__: prints an integer.
 
-p: prints a pointer adress in hexadecimal format(starting with 0x).
+__p__: prints a pointer adress in hexadecimal format(starting with 0x).
 
-u: prints an unsigned integer.
+__u__: prints an unsigned integer.
 
-x: prints an unsigned hexadecimal integer (lowercase a-f).
+__x__: prints an unsigned hexadecimal integer (lowercase a-f).
 
-X: prints an unsigned hexadecimal integer (uppercase A-F).
+__X__: prints an unsigned hexadecimal integer (uppercase A-F).
 
 You have to add the conversion specifier after the % character. (example : ft_printf("%%"), to print a % character).
 
