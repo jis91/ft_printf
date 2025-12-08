@@ -29,7 +29,7 @@ static int	ft_num_length(unsigned int n)
 static char	*ft_uitoa(unsigned int n)
 {
 	char	*num;
-	int		length;
+	size_t	length;
 
 	length = ft_num_length(n);
 	num = (char *)malloc(sizeof(char) * (length +1));
