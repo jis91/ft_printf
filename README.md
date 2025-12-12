@@ -22,7 +22,7 @@ My version will only work with the following conversion specifiers:
 
 <ins>d</ins> or <ins>i</ins>: prints an integer, a short or a long.
 
-<ins>p</ins>: prints a pointer adress in hexadecimal format(starting with 0x).
+<ins>p</ins>: prints a pointer adress in hexadecimal format (starting with 0x).
 
 <ins>u</ins>: prints an unsigned integer.
 
