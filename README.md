@@ -59,4 +59,8 @@ There is no main provided on this git. For 42 Lausanne evaluators I have a main.
 If you want to test my function on yourself you just have to make a main.c file in the same folder and #include "ft_printf.h" to test. 
 My version of main.c tests the different conversion specifiers on their own and in combination with others. It also prints out the normal printf function to compare.
 
+You can also test the function with free testers you can find on the web such as printfTester (https://github.com/Tripouille/printfTester).
+
+On the computers at school I have francinette installed. For evaluation you can also use francinette or paco in the repository as an alias to launch the tests. 
+
 Thank you for reading I hope you enjoy work/code. Cheers ! Jefferson 
