@@ -20,7 +20,7 @@ My version will only work with the following conversion specifiers:
 
 <ins>s</ins>: prints a string (array of characters).
 
-<ins>d</ins> or <ins>i</ins>: prints an integer.
+<ins>d</ins> or <ins>i</ins>: prints an integer, a short or a long.
 
 <ins>p</ins>: prints a pointer adress in hexadecimal format(starting with 0x).
 
